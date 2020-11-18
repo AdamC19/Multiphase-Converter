@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:multiphase_converter-cache
+EELAYER 29 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
@@ -3071,7 +3072,7 @@ Connection ~ 4650 7400
 Wire Wire Line
 	4650 7400 5050 7400
 Wire Wire Line
-	4700 4350 4700 4900
+	4700 4350 4700 4850
 Wire Wire Line
 	4700 5350 4700 5450
 $Comp
@@ -3087,28 +3088,20 @@ F 3 "~" H 4700 5150 50  0001 C CNN
 	1    4700 5150
 	0    1    1    0   
 $EndComp
-NoConn ~ 4800 4900
 Wire Wire Line
-	4650 6400 4650 6500
-NoConn ~ 4750 6500
+	4650 6400 4650 6450
 Wire Wire Line
-	4550 3700 4550 3800
-NoConn ~ 4650 3800
+	4550 3700 4550 3750
 Wire Wire Line
-	4500 1100 4500 1200
-NoConn ~ 4600 1200
+	4500 1100 4500 1150
 Wire Wire Line
-	4650 1750 4650 2300
-NoConn ~ 4750 2300
+	4650 1750 4650 2250
 Wire Wire Line
-	4800 7100 4800 7650
-NoConn ~ 4900 7650
+	4800 7100 4800 7600
 Wire Wire Line
-	11800 1750 11800 2300
-NoConn ~ 11900 2300
+	11800 1750 11800 2250
 Wire Wire Line
-	11600 1100 11600 1200
-NoConn ~ 11700 1200
+	11600 1100 11600 1150
 Text Notes 5000 9200 0    59   ~ 0
 20V/V
 Text Notes 15250 1850 0    59   ~ 0
@@ -4315,4 +4308,70 @@ P3_IFB
 Wire Wire Line
 	13650 3800 13800 3800
 Connection ~ 13800 3800
+Wire Wire Line
+	4650 3800 4650 3750
+Wire Wire Line
+	4650 3750 4550 3750
+Connection ~ 4550 3750
+Wire Wire Line
+	4550 3750 4550 3800
+Wire Wire Line
+	4800 4900 4800 4850
+Wire Wire Line
+	4800 4850 4700 4850
+Connection ~ 4700 4850
+Wire Wire Line
+	4700 4850 4700 4900
+Wire Wire Line
+	4750 2300 4750 2250
+Wire Wire Line
+	4750 2250 4650 2250
+Connection ~ 4650 2250
+Wire Wire Line
+	4650 2250 4650 2300
+Wire Wire Line
+	4600 1200 4600 1150
+Wire Wire Line
+	4600 1150 4500 1150
+Connection ~ 4500 1150
+Wire Wire Line
+	4500 1150 4500 1200
+Wire Wire Line
+	4900 7650 4900 7600
+Wire Wire Line
+	4900 7600 4800 7600
+Connection ~ 4800 7600
+Wire Wire Line
+	4800 7600 4800 7650
+Wire Wire Line
+	4750 6500 4750 6450
+Wire Wire Line
+	4750 6450 4650 6450
+Connection ~ 4650 6450
+Wire Wire Line
+	4650 6450 4650 6500
+Wire Wire Line
+	11900 2300 11900 2250
+Wire Wire Line
+	11900 2250 11800 2250
+Connection ~ 11800 2250
+Wire Wire Line
+	11800 2250 11800 2300
+Wire Wire Line
+	11700 1200 11700 1150
+Wire Wire Line
+	11700 1150 11600 1150
+Connection ~ 11600 1150
+Wire Wire Line
+	11600 1150 11600 1200
+NoConn ~ 4950 5000
+NoConn ~ 4950 4800
+NoConn ~ 5050 7550
+NoConn ~ 5050 7750
+NoConn ~ 4950 2400
+NoConn ~ 4950 2200
+NoConn ~ 12050 2400
+NoConn ~ 12050 2200
+NoConn ~ 9900 9450
+NoConn ~ 9900 9550
 $EndSCHEMATC
